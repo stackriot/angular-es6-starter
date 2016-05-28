@@ -28,5 +28,5 @@ The starter project uses Webpack as bundler and development server and BabelJs a
 After the download go to the root directory where the `package.json` file is located and type:
 ```bash
 npm run build     // generate the bundle file
-npm run start     // launch the webpack development server with hot-module-replacement
+npm run start     // launch the webpack development server with HMR e inline mode enabled
 ```
