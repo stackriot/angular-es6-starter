@@ -11,15 +11,13 @@ export default function MainDirective($interval,MainService) {
 
 	function link(scope, elem, attr) {
 
-		let interval;
+		var interval;
 
 		scope.name = MainService.getName();
+		
+		interval = $interval( () => scope.name = MainService.getName(), 1500 );
 
-		interval = $interval(function () {
-			scope.name = MainService.getName();
-		}, 1500)
-
-		scope.$on('$destroy', $interval.cancel(interval));
+		scope.$on( '$destroy', () => $interval.cancel(interval) );
 
 	}
 
