@@ -24,6 +24,16 @@ The starter project uses Webpack as bundler and development server and BabelJs a
 
 ---
 
+### What does include?
+The starter includes some example of how you can use the items in the list below to begin your project without doubts.
+* Controller(s): the controllers are build with the es6 **class** type.
+* Service(s): the services are build with the es6 **class** type.
+* Directive(s): the services are build by exporting a function. (**I can't do it with class**)
+* Route(s): the config functions and route are build by exporting a function.
+* Sub-Module(s): the sub modules, which contain all of the previous elements, are build with the es6 **class** type.
+
+---
+
 ### Development:
 After the download go to the root directory where the `package.json` file is located and type:
 ```bash
