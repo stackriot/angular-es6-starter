@@ -8,6 +8,10 @@
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
   },
   "author": "codekraft-studio",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/codekraft-studio/angular-es6-starter.git"
+  },
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.5"
