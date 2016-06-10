@@ -8,7 +8,7 @@ Download or clone the repository, or use the npm (node package manager):
 npm install angular-es6-starter
 ```
 
-Install the dependencies and once is done, run the webpack-dev-server:
+Install the dependencies and once is done, run the webpack-dev-server,this operations can take few seconds or minutes depending on the speed of your connection.
 
 ```bash
 npm install
