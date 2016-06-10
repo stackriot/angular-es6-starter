@@ -1,13 +1,11 @@
 class MainService {
 
-  constructor($timeout) {
-    this.$timeout = $timeout;
+  constructor() {
+    this.names = ['Filippo', 'Matthew', 'Sara', 'Jhonn', 'Rambo', 'Lara']
   }
 
-  doSomething() {
-    this.$timeout(function () {
-      console.log('Hi, from the service!');
-    }, 500)
+  getName() {
+    return this.names[ Math.floor(Math.random() * this.names.length) ]
   }
 
 }
